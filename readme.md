@@ -5,7 +5,7 @@
 <p>Clone or Download the Repository to the htdocs / www folder.</p>
 <span>Update Composer by typing<code>Composer update</code> in the <code>command line</code> on the root directory of project.</span>
 <span>Change default database configuration in </span> <code>config/database.php</code><br/>
-<span>We are using <code>mysql</code> as default connection</span>
+<span>We are using <code>mysql</code> as default connection</span><br/>
 ```
 'mysql' => [
             'driver' => 'mysql',
@@ -21,7 +21,7 @@
             'engine' => null,
         ],
 ``` 
-<p>We already have some <code>Role</code> seeder, So we also need to seed the database along with migration</p>
+<p>We already have some <code>Role</code> seeder, So we also need to seed the database along with migration</p><br/>
 <span> Run migration by typing<code>php artisan migrate --seed</code>in the </span><code>command line</code>
 <h3>Tip</h3>
 <p>To create a migration for <code>Tenant</code>simply type <code>php artisan tenanti:make site create_tablename_table</code> 
