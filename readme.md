@@ -6,6 +6,7 @@
 <span>Update Composer by typing<code>Composer update</code> in the <code>command line</code> on the root directory of project.</span>
 <span>Change default database configuration in </span> <code>config/database.php</code><br/>
 <span>We are using <code>mysql</code> as default connection</span><br/>
+
 ```
 'mysql' => [
             'driver' => 'mysql',
